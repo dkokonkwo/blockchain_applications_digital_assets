@@ -2,6 +2,8 @@
 
 In this project, students should focus on leveraging blockchain technology—specifically the Ethereum blockchain—to secure and manage digital assets. Digital assets can include cryptocurrencies, digital artworks, tokens, and other forms of valuable digital property. Blockchain's decentralized ledger and smart contract functionality offer a robust solution for ensuring asset authenticity, secure ownership, and protection against unauthorized alterations.
 
+**LINK TO ZIP FILE:** https://drive.google.com/file/d/1UT94WlT7CSBnM86kyHXe2mx6JHs36mIm/view?usp=drive_link
+
 # Krypton NFT Marketplace
 
 ## Overview
