@@ -132,7 +132,7 @@ await tx.wait();
 This project is licensed under the **MIT License**.
 
 ## Authors
-- **Your Name** (@dk-okonkwo)
+- **David Okonkwo** (@dkokonkwo)
 
 ## Contributing
 Contributions are welcome! To contribute:
