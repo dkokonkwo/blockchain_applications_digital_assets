@@ -130,6 +130,19 @@ const tx = await contract.buyToken(tokenId, { value: priceInWei });
 await tx.wait();
 ```
 
+## Limitations & Security Considerations ⚠️
+**This project is a small-scale marketplace prototype and should not be considered an enterprise-grade blockchain solution.**
+
+### Limitations:
+1. **All users are auto-approved** using `setApprovedAll`, meaning the contract does not have a strict access control mechanism for trading.
+2. **No off-chain verification** for metadata (stored hashes help, but there's no external validation system).
+3. **Basic security** – The contract lacks advanced protections against potential attack vectors like **re-entrancy attacks**.
+
+### Future Improvements:
+- Implement **role-based access control**.
+- Improve security for **token transfers and approvals**.
+- Introduce **escrow mechanisms** to prevent scams.
+
 ## License
 This project is licensed under the **MIT License**.
 
@@ -145,11 +158,6 @@ Contributions are welcome! To contribute:
 
 ---
 Feel free to reach out if you need any assistance!
-
-
-
-
-
 
 **REQUIREMENTS**
 
