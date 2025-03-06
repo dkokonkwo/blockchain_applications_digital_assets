@@ -37,7 +37,7 @@ function MyCollection() {
   }, []);
   const getCount = async () => {
     const count = await contract.count();
-    console.log(count);
+    console.log("count: ", count);
     setTotalMinted(parseInt(count));
   };
   return (
@@ -45,7 +45,7 @@ function MyCollection() {
       <h3>Krypton Collection</h3>
       <h4>Check Our Weekly Updated Trending Collection</h4>
       <div className="card-layout">
-        {Array(totalMinted)
+        {Array(totalMinted + 1)
           .fill(0)
           .map((_, i) => (
             <div key={i} className="red">
@@ -60,7 +60,7 @@ function MyCollection() {
 function NFTImage({ tokenId, getCount }) {
   const contentId =
     "bafybeighd4mn2lqz7al6cnt6c6allhlyxfdqh3coj7e5kjrrvgusneykvy";
-  const metadataURI = `${contentId}/${kryptonCollection[tokenId]}.json`;
+  const metadataURI = `${contentId}/${kryptonCollection[tokenId + 1]}.json`;
   const imageURI = `https://yellow-actual-partridge-846.mypinata.cloud/ipfs/${contentId}/${kryptonCollection[tokenId]}.jpg`;
   const imageURITest = `https://yellow-actual-partridge-846.mypinata.cloud/ipfs/bafybeighd4mn2lqz7al6cnt6c6allhlyxfdqh3coj7e5kjrrvgusneykvy/white-dodge.json`;
 
@@ -68,6 +68,7 @@ function NFTImage({ tokenId, getCount }) {
 
   useEffect(() => {
     getMintedStatus();
+    console.log("Current token: ", tokenId + 1);
   }, []);
 
   const getMintedStatus = async () => {
@@ -80,8 +81,8 @@ function NFTImage({ tokenId, getCount }) {
   };
 
   const mintToken = async () => {
-    const connection = contract2.connect(signer);
-    const addr = await contract2.getAddress();
+    // const connection = contract2.connect(signer);
+    // const addr = await contract2.getAddress();
     const [account] = await window.ethereum.request({
       method: "eth_requestAccounts",
     });
@@ -110,7 +111,7 @@ function NFTImage({ tokenId, getCount }) {
       ></img>
       <div className="card-info">
         <div className="name-owner">
-          <h5>{isMinted ? kryptonCollection[tokenId] : `ID #${tokenId}`}</h5>
+          <h5>{isMinted ? kryptonCollection[tokenId] : `ID #${tokenId + 1}`}</h5>
           {isMinted && (
             <div className="owner">
               <img src={User} alt="owner"></img>

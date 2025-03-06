@@ -122,7 +122,8 @@
   align-items: center;
 }
 
-.mint-btn, .buy-token Button{
+.mint-btn,
+.buy-token Button {
   background-color: #26b5c5 !important;
 }
 
@@ -157,6 +158,7 @@ Button {
   margin-inline: 1rem;
   border-radius: 0.5rem;
   transition: ease-in-out 0.3s;
+  margin-bottom: 1rem;
 }
 
 .red:hover {
@@ -220,15 +222,16 @@ Button {
   color: #26b5c5;
 }
 
-
 .modal-footer Button,
-.asset-info-btn, .sell Button {
+.asset-info-btn,
+.sell Button {
   background: none !important;
   border: 1px solid #26b5c5 !important;
 }
 
 .modal-footer Button:hover,
-.asset-info-btn:hover, .sell Button:hover {
+.asset-info-btn:hover,
+.sell Button:hover {
   background-color: #26b5c5 !important;
 }
 
@@ -277,4 +280,16 @@ Button {
 
 .modal-body .form-label {
   color: white;
+}
+
+.buy-body h4 {
+  font-family: "Space Mono", monospace;
+  color: white;
+}
+
+.buy-body strong {
+  font-weight: 500;
+  word-wrap: break-word;
+  font-size: 1.3rem;
+  color: #26b5c5;
 }

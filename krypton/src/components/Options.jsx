@@ -4,7 +4,6 @@ import { ethers } from "ethers";
 import Krypton from "../artifacts/contracts/Krypton.sol/Krypton.json";
 import AssetInfo from "./AssetInfo";
 import BuyToken from "./BuyToken";
-import { Flag } from "iconsax-react";
 
 const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
@@ -138,7 +137,9 @@ function Options({ isMinted, mintToken, tokenId }) {
               <SellToken putForSale={putForSale} />
             </div>
           )}
-          {!isOwner && isForSale && <BuyToken price={price} />}
+          {!isOwner && isForSale && (
+            <BuyToken price={price} contract={contract} tokenId={tokenId} />
+          )}
           {!isOwner && !isForSale && (
             <AssetInfo
               tokenID={tokenId + 1}
