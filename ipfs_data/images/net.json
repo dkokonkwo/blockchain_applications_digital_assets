@@ -1,0 +1,11 @@
+{
+  "name": "net",
+  "description": "An image of net",
+  "image": "net.jpg",
+  "attributes": [
+    {
+      "type": "car",
+      "rarity": 0.5
+    }
+  ]
+}

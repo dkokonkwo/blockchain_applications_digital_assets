@@ -1,0 +1,11 @@
+{
+  "name": "golfball",
+  "description": "An image of golfball",
+  "image": "golfball.jpg",
+  "attributes": [
+    {
+      "type": "ball",
+      "rarity": 0.5
+    }
+  ]
+}

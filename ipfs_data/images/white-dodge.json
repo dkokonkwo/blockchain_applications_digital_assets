@@ -1,0 +1,11 @@
+{
+  "name": "white-dodge",
+  "description": "An image of white-dodge",
+  "image": "white-dodge.jpg",
+  "attributes": [
+    {
+      "type": "car",
+      "rarity": 0.5
+    }
+  ]
+}

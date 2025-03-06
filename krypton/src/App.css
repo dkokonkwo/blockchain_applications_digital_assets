@@ -1,0 +1,280 @@
+#root {
+  background-color: #2b2b2b !important;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.home {
+  width: 98vw !important;
+  margin: 0;
+  margin-inline: auto;
+  min-height: 100vh;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.navbar {
+  background-color: #2b2b2b !important;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar-brand h2 {
+  color: #26b5c5;
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
+.nav-link {
+  color: white !important;
+  margin-inline: 1rem;
+}
+
+.nav-link.active:focus {
+  color: #26b5c5 !important;
+  border-bottom: 2px solid #26b5c5 !important;
+}
+
+.nav-link:hover {
+  color: #26b5c5 !important;
+  border-bottom: 2px solid #26b5c5 !important;
+}
+
+.balance-btn {
+  background-color: #26b5c5 !important;
+  border: none !important;
+}
+
+.myCard {
+  height: 18rem;
+  width: 15rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  margin: 1px;
+}
+
+.card-info {
+  width: 100%;
+  height: 40%;
+  background-color: #3b3b3b !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 0px 0px 0.5rem 0.5rem;
+}
+
+.name-owner {
+  height: 55%;
+  width: 90%;
+}
+
+.name-owner h5 {
+  margin: 0;
+  height: 40%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: white;
+  margin: 3px 0px;
+}
+
+.owner {
+  height: 50%;
+  display: flex;
+  margin-top: auto;
+  align-items: center;
+}
+
+.owner h6 {
+  margin: 0;
+  margin-left: 0.5rem;
+  font-family: "Space Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.owner img {
+  height: 80%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
+
+.options {
+  height: 45%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.mint-btn, .buy-token Button{
+  background-color: #26b5c5 !important;
+}
+
+Button {
+  font-family: "Work Sans", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 500;
+  font-style: normal;
+  border: none !important;
+}
+
+.krypton-collection {
+  margin-top: 8vh;
+}
+
+.krypton-collection h3 {
+  color: white;
+  margin-bottom: 0;
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.krypton-collection h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: white;
+  margin-left: 1rem;
+}
+
+.red {
+  margin-inline: 1rem;
+  border-radius: 0.5rem;
+  transition: ease-in-out 0.3s;
+}
+
+.red:hover {
+  transform: scale(1.01);
+}
+
+.card-layout {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.nft-image {
+  width: 100%;
+  height: 60%;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  background-color: #3b3b3b !important;
+}
+
+.modal-header,
+.modal-footer {
+  border: none !important;
+}
+
+.modal-body ul {
+  color: white;
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+.balance {
+  color: white;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+.modal-header {
+  color: #26b5c5;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.modal-body li {
+  margin-bottom: 0.4rem;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 0.8rem;
+  word-wrap: break-word;
+}
+
+.modal-body li strong {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #26b5c5;
+}
+
+
+.modal-footer Button,
+.asset-info-btn, .sell Button {
+  background: none !important;
+  border: 1px solid #26b5c5 !important;
+}
+
+.modal-footer Button:hover,
+.asset-info-btn:hover, .sell Button:hover {
+  background-color: #26b5c5 !important;
+}
+
+.buy-token {
+  width: 99%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  font-family: "Space Mono", monospace;
+  margin-inline: auto;
+  padding-top: 5px;
+}
+
+.price-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90%;
+}
+
+.buy-token Button {
+  height: 90%;
+}
+
+.eth {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.price {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #858584;
+  margin: 0;
+  margin-top: 0px;
+}
+
+.sell {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.modal-body .form-label {
+  color: white;
+}

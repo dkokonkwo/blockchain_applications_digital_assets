@@ -1,0 +1,11 @@
+{
+  "name": "blue-bmw",
+  "description": "An image of blue-bmw",
+  "image": "blue-bmw.jpg",
+  "attributes": [
+    {
+      "type": "car",
+      "rarity": 0.5
+    }
+  ]
+}

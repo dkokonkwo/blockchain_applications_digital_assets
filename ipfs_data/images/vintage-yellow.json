@@ -1,0 +1,11 @@
+{
+  "name": "vintage-yellow",
+  "description": "An image of vintage-yellow",
+  "image": "vintage-yellow.jpg",
+  "attributes": [
+    {
+      "type": "car",
+      "rarity": 0.5
+    }
+  ]
+}

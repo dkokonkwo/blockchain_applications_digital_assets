@@ -1,0 +1,11 @@
+{
+  "name": "grey-benz",
+  "description": "An image of grey-benz",
+  "image": "grey-benz.jpg",
+  "attributes": [
+    {
+      "type": "car",
+      "rarity": 0.5
+    }
+  ]
+}

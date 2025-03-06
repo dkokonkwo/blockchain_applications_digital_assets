@@ -1,0 +1,11 @@
+{
+  "name": "volleyball",
+  "description": "An image of volleyball",
+  "image": "volleyball.jpg",
+  "attributes": [
+    {
+      "type": "ball",
+      "rarity": 0.5
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "soccer-ball",
+  "description": "An image of soccer-ball",
+  "image": "soccer-ball.jpg",
+  "attributes": [
+    {
+      "type": "ball",
+      "rarity": 0.5
+    }
+  ]
+}

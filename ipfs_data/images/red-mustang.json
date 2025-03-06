@@ -1,0 +1,11 @@
+{
+  "name": "red-mustang",
+  "description": "An image of red-mustang",
+  "image": "red-mustang.jpg",
+  "attributes": [
+    {
+      "type": "car",
+      "rarity": 0.5
+    }
+  ]
+}
