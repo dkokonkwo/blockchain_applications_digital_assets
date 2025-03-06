@@ -4,6 +4,8 @@ In this project, students should focus on leveraging blockchain technology—spe
 
 **LINK TO ZIP FILE:** https://drive.google.com/file/d/1UT94WlT7CSBnM86kyHXe2mx6JHs36mIm/view?usp=drive_link
 
+**DEMO VIDEO LINK**: https://drive.google.com/file/d/1cYLwnprwicW3vBTTZ-vW_5zabwjhSQ34/view?usp=sharing
+
 # Krypton NFT Marketplace
 
 ## Overview
